@@ -1,0 +1,20 @@
+server:
+  port: 9012
+  servlet:
+    context-path: /gateway
+
+spring:
+  application:
+    name: @project.artifactId@
+  profiles:
+    active: @profiles.active@
+  cloud:
+    nacos:
+      server-addr: @nacos.url@
+      discovery:
+        namespace: @profiles.active@
+        group: @app.group@
+      config:
+        namespace: @profiles.active@
+        group: @app.group@
+        file-extension: yml
