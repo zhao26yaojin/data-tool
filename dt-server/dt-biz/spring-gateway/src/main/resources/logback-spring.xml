@@ -2,7 +2,7 @@
 <configuration>
 <!--<configuration scan="false">-->
     <springProperty scope="context" name="serverName" source="spring.application.name"/>
-    <property name="APP_NAME" value="lt"/>
+    <property name="APP_NAME" value="dt"/>
     <property name="LOG_PATH" value="/opt/logs/${APP_NAME}"/>
     <property name="LOG_BACKUP_PATH" value="/opt/logs/${APP_NAME}/bak"/>
     <!-- 活动文件的大小 -->
