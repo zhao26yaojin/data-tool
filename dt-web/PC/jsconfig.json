@@ -1,0 +1,11 @@
+{
+    // 设置ctrl+鼠标左键跳转功能
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        }
+    },
+    "exclude": ["node_modules", "dist"],
+    "include": ["src/**/*"]
+}
