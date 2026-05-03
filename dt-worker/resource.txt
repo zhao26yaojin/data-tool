@@ -1,0 +1,2 @@
+src_path=C:\Users\admin\Desktop\changes
+tgt_path=D:\workspace\code-tool
